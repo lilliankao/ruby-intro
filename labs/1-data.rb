@@ -15,3 +15,17 @@
 # rand(1..6)
 # Log output to the screen with puts:
 # puts "Hello, world"
+
+#store the die of first one in memory
+die1 = rand(1..6)
+#write the first one on screen
+puts die1
+
+#store the value of the second one in memory
+die2 = rand(1..6)
+#write the second on on screen
+puts die2
+
+total = die1 + die2
+puts total
+

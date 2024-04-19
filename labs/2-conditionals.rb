@@ -12,6 +12,24 @@
 # that reads "YOU LOSE!", otherwise, write a message that
 # reads "THE POINT IS {number}"
 
+#first die
+die1 = rand(1..6)
+#write the first one on screen
+puts die1
+#store the value of the second one in memory
+die2 = rand(1..6)
+#write the second on on screen
+puts die2
+
+total = die1 + die2
+puts total
+if total == 7 || total == 11 then
+    puts "YOU WIN!"
+elsif total == 2 || total == 3 || total == 12
+puts "YOU LOSE!" 
+else puts "THE POINT IS #{total}"
+end
+
 # HINTS
 # Get a random number between 1 and 6 by doing:
 # rand(1..6)

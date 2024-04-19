@@ -29,4 +29,19 @@ bitcoin = gets.chomp
 bitcoin = bitcoin.to_f
 
 # 3. inspect the bitcoin_data hash
-# puts bitcoin_data
+puts bitcoin_data
+
+#write the nubmer of bitcoin the user has to screen
+puts "You have #{bitcoin} bitcoin."
+
+#get conversion rate from CoinbaseAPI
+conversion_rate = bitcoin_data["bpi"]["USD"]["rate_float"]
+
+#write th econversion rate to screen
+puts "The current Bitcoin rate is #{conversion_rate} USD."
+
+#determining the amount of USD in Bitcoin I have 
+usd_value = bitcoin + conversion_rate
+
+#write the USD value to screen
+puts "You have #{usd_value} USD worth of Bitcoin"
