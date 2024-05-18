@@ -10,9 +10,11 @@ puts 2 + 3
 # Non-numbers
 #put my favorite thing on screen
 puts "tacos"
+puts "Tacos are" + "delish"
+puts "tacos" *3
 
 # True, False
-#puts True
+puts true
 
 # Nothing
 puts nil
@@ -25,6 +27,8 @@ puts zebra
 #replace value of zebra with 6
 zebra = 6
 puts zebra
+food = "tacos"
+quantity = 3
 
 #store my favorite thing in memory
 my_favorite_thing = "tacos"
@@ -35,6 +39,6 @@ number_of_things = 3
 puts "My order is... = #{number_of_things} #{my_favorite_thing}"
 
 # Combine strings and variables
-
+puts "I want #{quantity} #{food}"
 
 # String manipulation

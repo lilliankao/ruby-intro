@@ -9,15 +9,18 @@ favorite_foods = [
     "bourbon"
 ]
 
+
 # Accessing the array
 #puts favorite_foods
 
 #print the first item in the list to screen
-puts favorite_foods
+shopping_list = ["coffee", "wipes", "diapers", "beer"]
+p shopping_list[1]
 
 # Add to the array
 favorite_foods = favorite_foods + ["ice cream","tortas"]
 favorite_foods.push("burritos")
+favorite_foods.count
 favorite_foods << "burgers"
 
 # There are lots of fun things you can do with arrays:

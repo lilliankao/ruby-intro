@@ -25,4 +25,4 @@ my_profile = {
 puts my_profile["location"]["state"]
 
 # More Complex Hashes
-puts my_profile["timeline"][0]
+puts my_profile["timeline"][1]
